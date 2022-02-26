@@ -6,6 +6,8 @@ kubectl apply -f prom.yml
 sleep 1s
 kubectl apply -f cadvisor.yml
 sleep 1s
+kubectl apply -f node-exp.yml
+sleep 1s
 kubectl apply -f grafana.yml
 sleep 1s
 kubectl apply -f mysql.yml
