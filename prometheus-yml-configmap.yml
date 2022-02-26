@@ -13,7 +13,7 @@ data:
       - targets: ['localhost:9090']
     - job_name: 'node_exporter'
       static_configs:
-      - targets: ['node_exporter:9100']
+      - targets: ['node-exp-int-service:9100']
     - job_name: 'cadvisor'
       static_configs:
       - targets: ['cad-service:8080']
