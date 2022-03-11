@@ -7,6 +7,9 @@ spec:
     - ReadWriteMany
   capacity:
     storage: 100Mi
+  hostPath:
+    path: /mysql-data
+    type: DirectoryOrCreate
 
 ---
 apiVersion: v1
